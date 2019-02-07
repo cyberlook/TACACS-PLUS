@@ -16,3 +16,13 @@ cp -rfpv TACACS-PLUS/tac_plus.conf /etc/tacacs+/tac_plus.conf
 sudo systemctl status tacacs_plus.service
 sudo systemctl restart tacacs_plus.service
 ```
+## 4. Add user (System Accounts will add new user 'test')
+```
+sudo adduser test
+```
+
+## 5. Remove user (System Accounts will remove new user 'test')
+```
+sudo pkill -u test
+sudo deluser test
+```
