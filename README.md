@@ -31,7 +31,7 @@ sudo deluser test
 ```
 ifconfig
 sudo gedit /etc/network/interfaces
-
+-----------------------------------------
 auto eth0
 iface eth0 inet static
         address 192.168.10.100
@@ -39,6 +39,7 @@ iface eth0 inet static
         network 192.168.10.0
         broadcast 192.168.10.255
         gateway 192.168.10.254
+-----------------------------------------
 ```
 ## 7. Restart network interfaces 
 ```
@@ -47,4 +48,4 @@ ifconfig
 ```
 
 ## 8. Configure Cisco Routers and Switches
-
+https://networkjutsu.com/configuring-aaa-on-cisco-routers-switches/
