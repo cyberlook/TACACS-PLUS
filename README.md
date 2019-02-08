@@ -48,4 +48,9 @@ ifconfig
 ```
 
 ## 8. Configure Cisco Routers and Switches
+
+# Sites
+```
 https://networkjutsu.com/configuring-aaa-on-cisco-routers-switches/
+https://networkjutsu.com/tacacs-ubuntu/
+```
